@@ -1,0 +1,108 @@
+
+Fetching metadata for doi:10.5072/FK2/WORK-ALL (https://ezid.cdlib.org/id/doi:10.5072/FK2/WORK-ALL)
+Status: 200
+Full metadata:
+success: doi:10.5072/FK2/WORK-ALL
+datacite.title: My Dataset on Family & Crime (all versions)
+datacite.creator: Institutional Research Group
+datacite.version: all
+datacite.publisher: Example University
+datacite.resourcetype: Dataset
+datacite.relationtype.1: HasVersion
+datacite.relationtype.2: HasVersion
+datacite.publicationyear: 2025
+datacite.relatedidentifier.1: 10.5072/FK2/WORK-V1
+datacite.relatedidentifier.2: 10.5072/FK2/WORK-V2
+datacite.relatedidentifiertype.1: DOI
+datacite.relatedidentifiertype.2: DOI
+_owner: simons_observatory
+_ownergroup: ucsdlib
+_created: 1763054399
+_updated: 1763054399
+_profile: datacite
+_target: https://example.org/datasets/work-all
+_datacenter: CDL.CDL
+_status: public
+_export: yes
+_shadowedby: ark:/b5072/fk2/work%252dall
+Version-related fields:
+  datacite.relatedidentifier.1: 10.5072/FK2/WORK-V1
+  datacite.relatedidentifier.2: 10.5072/FK2/WORK-V2
+  datacite.relatedidentifiertype.1: DOI
+  datacite.relatedidentifiertype.2: DOI
+  datacite.relationtype.1: HasVersion
+  datacite.relationtype.2: HasVersion
+  datacite.version: all
+
+
+Fetching metadata for doi:10.5072/FK2/WORK-V1 (https://ezid.cdlib.org/id/doi:10.5072/FK2/WORK-V1)
+Status: 200
+Full metadata:
+success: doi:10.5072/FK2/WORK-V1
+datacite.title: My Dataset on Family & Crime (version 1.0)
+datacite.creator: Institutional Research Group
+datacite.version: 1.0
+datacite.publisher: Example University
+datacite.resourcetype: Dataset
+datacite.relationtype.1: IsVersionOf
+datacite.relationtype.2: IsPreviousVersionOf
+datacite.publicationyear: 2024
+datacite.relatedidentifier.1: 10.5072/FK2/WORK-ALL
+datacite.relatedidentifier.2: 10.5072/FK2/WORK-V2
+datacite.relatedidentifiertype.1: DOI
+datacite.relatedidentifiertype.2: DOI
+_owner: simons_observatory
+_ownergroup: ucsdlib
+_created: 1763054400
+_updated: 1763054400
+_profile: datacite
+_target: https://example.org/datasets/work-v1
+_datacenter: CDL.CDL
+_status: public
+_export: yes
+_shadowedby: ark:/b5072/fk2/work%252dv1
+Version-related fields:
+  datacite.relatedidentifier.1: 10.5072/FK2/WORK-ALL
+  datacite.relatedidentifier.2: 10.5072/FK2/WORK-V2
+  datacite.relatedidentifiertype.1: DOI
+  datacite.relatedidentifiertype.2: DOI
+  datacite.relationtype.1: IsVersionOf
+  datacite.relationtype.2: IsPreviousVersionOf
+  datacite.version: 1.0
+
+
+Fetching metadata for doi:10.5072/FK2/WORK-V2 (https://ezid.cdlib.org/id/doi:10.5072/FK2/WORK-V2)
+Status: 200
+Full metadata:
+success: doi:10.5072/FK2/WORK-V2
+datacite.title: My Dataset on Family & Crime (version 2.0)
+datacite.creator: Institutional Research Group
+datacite.version: 2.0
+datacite.publisher: Example University
+datacite.resourcetype: Dataset
+datacite.relationtype.1: IsVersionOf
+datacite.relationtype.2: IsNewVersionOf
+datacite.publicationyear: 2025
+datacite.relatedidentifier.1: 10.5072/FK2/WORK-ALL
+datacite.relatedidentifier.2: 10.5072/FK2/WORK-V1
+datacite.relatedidentifiertype.1: DOI
+datacite.relatedidentifiertype.2: DOI
+_owner: simons_observatory
+_ownergroup: ucsdlib
+_created: 1763054401
+_updated: 1763054401
+_profile: datacite
+_target: https://example.org/datasets/work-v2
+_datacenter: CDL.CDL
+_status: public
+_export: yes
+_shadowedby: ark:/b5072/fk2/work%252dv2
+Version-related fields:
+  datacite.relatedidentifier.1: 10.5072/FK2/WORK-ALL
+  datacite.relatedidentifier.2: 10.5072/FK2/WORK-V1
+  datacite.relatedidentifiertype.1: DOI
+  datacite.relatedidentifiertype.2: DOI
+  datacite.relationtype.1: IsVersionOf
+  datacite.relationtype.2: IsNewVersionOf
+  datacite.version: 2.0
+
