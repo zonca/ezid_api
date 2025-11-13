@@ -1,6 +1,6 @@
 # EZID DOI Management
 
-This project provides Python scripts to interact with the EZID API for creating and checking Digital Object Identifiers (DOIs).
+This project provides Python scripts to interact with the EZID API for creating and checking Digital Object Identifiers (DOIs). For complete API reference details, see the [EZID API documentation](https://ezid.cdlib.org/doc/apidoc.html).
 
 ## Setup
 
