@@ -36,18 +36,18 @@ def put_identifier(identifier: str, metadata_items: Iterable[Tuple[str, str]], a
 
 def build_release_metadata() -> List[Tuple[str, List[Tuple[str, str]]]]:
     """Define metadata for a release DOI and its product DOIs."""
-    release_id = f"{TEST_SHOULDER}/OCEAN-RELEASE-2025"
-    product_1_id = f"{TEST_SHOULDER}/OCEAN-RELEASE-2025-P1"
-    product_2_id = f"{TEST_SHOULDER}/OCEAN-RELEASE-2025-P2"
+    release_id = f"{TEST_SHOULDER}/SIMONSOBS-RELEASE-2025"
+    product_1_id = f"{TEST_SHOULDER}/SIMONSOBS-RELEASE-2025-P1"
+    product_2_id = f"{TEST_SHOULDER}/SIMONSOBS-RELEASE-2025-P2"
 
     release = (
         release_id,
         [
             ("_profile", "datacite"),
-            ("_target", "https://example.org/data-releases/ocean-2025"),
-            ("datacite.creator", "Example Marine Lab"),
-            ("datacite.title", "2025 Coastal Observing System Data Release"),
-            ("datacite.publisher", "Example Marine Lab"),
+            ("_target", "https://example.org/data-releases/simonsobs-2025"),
+            ("datacite.creator", "Simons Observatory Collaboration"),
+            ("datacite.title", "Simons Observatory Data Release 2025"),
+            ("datacite.publisher", "Simons Observatory"),
             ("datacite.publicationyear", "2025"),
             ("datacite.resourcetype", "Collection"),
             ("datacite.relatedidentifier.1", product_1_id.split("doi:", 1)[1]),
@@ -63,10 +63,10 @@ def build_release_metadata() -> List[Tuple[str, List[Tuple[str, str]]]]:
         product_1_id,
         [
             ("_profile", "datacite"),
-            ("_target", "https://example.org/data-releases/ocean-2025/sea-surface-temp"),
-            ("datacite.creator", "Example Marine Lab"),
-            ("datacite.title", "Sea Surface Temperature Gridded Product (2025 Release)"),
-            ("datacite.publisher", "Example Marine Lab"),
+            ("_target", "https://example.org/data-releases/simonsobs-2025/product-1"),
+            ("datacite.creator", "Simons Observatory Collaboration"),
+            ("datacite.title", "Simons Observatory Data Product 1 (2025 Release)"),
+            ("datacite.publisher", "Simons Observatory"),
             ("datacite.publicationyear", "2025"),
             ("datacite.resourcetype", "Dataset"),
             ("datacite.version", "2025.1"),
@@ -80,10 +80,10 @@ def build_release_metadata() -> List[Tuple[str, List[Tuple[str, str]]]]:
         product_2_id,
         [
             ("_profile", "datacite"),
-            ("_target", "https://example.org/data-releases/ocean-2025/chlorophyll"),
-            ("datacite.creator", "Example Marine Lab"),
-            ("datacite.title", "Chlorophyll-a Satellite Mosaic (2025 Release)"),
-            ("datacite.publisher", "Example Marine Lab"),
+            ("_target", "https://example.org/data-releases/simonsobs-2025/product-2"),
+            ("datacite.creator", "Simons Observatory Collaboration"),
+            ("datacite.title", "Simons Observatory Data Product 2 (2025 Release)"),
+            ("datacite.publisher", "Simons Observatory"),
             ("datacite.publicationyear", "2025"),
             ("datacite.resourcetype", "Dataset"),
             ("datacite.version", "2025.1"),

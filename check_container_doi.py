@@ -6,9 +6,9 @@ from dotenv import load_dotenv
 
 EZID_BASE_URL = "https://ezid.cdlib.org/id"
 CONTAINER_IDS: List[str] = [
-    "doi:10.5072/FK2/OCEAN-RELEASE-2025",
-    "doi:10.5072/FK2/OCEAN-RELEASE-2025-P1",
-    "doi:10.5072/FK2/OCEAN-RELEASE-2025-P2",
+    "doi:10.5072/FK2/SIMONSOBS-RELEASE-2025",
+    "doi:10.5072/FK2/SIMONSOBS-RELEASE-2025-P1",
+    "doi:10.5072/FK2/SIMONSOBS-RELEASE-2025-P2",
 ]
 
 
